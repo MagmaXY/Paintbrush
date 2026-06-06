@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "paintbrush",
+	"version": "${version}",
+	"name": "Paintbrush",
+	"description": "Данный мод упростит жизнь строителям, придав новую жизнь кисти, добавив ей красящие способности!",
+	"authors": [
+		"Morpheus - вдохновитель, MagmaXY - разработчик мода"
+	],
+	"contact": {
+		"homepage": "https://github.com/MagmaXY/paintbrush",
+		"sources": "https://github.com/MagmaXY/paintbrush"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/paintbrush/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.magmaxy.Paintbrush"
+		],
+		"client": [
+			"com.magmaxy.client.PaintbrushClient"
+		]
+	},
+	"mixins": [
+		"paintbrush.mixins.json",
+		{
+			"config": "paintbrush.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

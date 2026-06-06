@@ -1,0 +1,115 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:use_cycle",
+    "period": 10.0,
+    "scale": 0.1,
+    "entries": [
+      {
+        "threshold": 0.25,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:base_color",
+          "cases": [
+            { "when": "white", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/white_paintbrush" } },
+            { "when": "light_gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/light_gray_paintbrush" } },
+            { "when": "gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/gray_paintbrush" } },
+            { "when": "black", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/black_paintbrush" } },
+            { "when": "brown", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/brown_paintbrush" } },
+            { "when": "red", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/red_paintbrush" } },
+            { "when": "orange", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/orange_paintbrush" } },
+            { "when": "yellow", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/yellow_paintbrush" } },
+            { "when": "lime", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/lime_paintbrush" } },
+            { "when": "green", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/green_paintbrush" } },
+            { "when": "cyan", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/cyan_paintbrush" } },
+            { "when": "light_blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/light_blue_paintbrush" } },
+            { "when": "blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/blue_paintbrush" } },
+            { "when": "purple", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/purple_paintbrush" } },
+            { "when": "magenta", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/magenta_paintbrush" } },
+            { "when": "pink", "model": { "type": "minecraft:model", "model": "paintbrush:item/0/pink_paintbrush" } }
+          ],
+          "fallback": { "type": "minecraft:model", "model": "paintbrush:item/0/white_paintbrush" }
+        }
+      },
+      {
+        "threshold": 0.5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:base_color",
+          "cases": [
+            { "when": "white", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/white_paintbrush" } },
+            { "when": "light_gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/light_gray_paintbrush" } },
+            { "when": "gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/gray_paintbrush" } },
+            { "when": "black", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/black_paintbrush" } },
+            { "when": "brown", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/brown_paintbrush" } },
+            { "when": "red", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/red_paintbrush" } },
+            { "when": "orange", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/orange_paintbrush" } },
+            { "when": "yellow", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/yellow_paintbrush" } },
+            { "when": "lime", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/lime_paintbrush" } },
+            { "when": "green", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/green_paintbrush" } },
+            { "when": "cyan", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/cyan_paintbrush" } },
+            { "when": "light_blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/light_blue_paintbrush" } },
+            { "when": "blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/blue_paintbrush" } },
+            { "when": "purple", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/purple_paintbrush" } },
+            { "when": "magenta", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/magenta_paintbrush" } },
+            { "when": "pink", "model": { "type": "minecraft:model", "model": "paintbrush:item/1/pink_paintbrush" } }
+          ],
+          "fallback": { "type": "minecraft:model", "model": "paintbrush:item/1/white_paintbrush" }
+        }
+      },
+      {
+        "threshold": 0.75,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:base_color",
+          "cases": [
+            { "when": "white", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/white_paintbrush" } },
+            { "when": "light_gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/light_gray_paintbrush" } },
+            { "when": "gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/gray_paintbrush" } },
+            { "when": "black", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/black_paintbrush" } },
+            { "when": "brown", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/brown_paintbrush" } },
+            { "when": "red", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/red_paintbrush" } },
+            { "when": "orange", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/orange_paintbrush" } },
+            { "when": "yellow", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/yellow_paintbrush" } },
+            { "when": "lime", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/lime_paintbrush" } },
+            { "when": "green", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/green_paintbrush" } },
+            { "when": "cyan", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/cyan_paintbrush" } },
+            { "when": "light_blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/light_blue_paintbrush" } },
+            { "when": "blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/blue_paintbrush" } },
+            { "when": "purple", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/purple_paintbrush" } },
+            { "when": "magenta", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/magenta_paintbrush" } },
+            { "when": "pink", "model": { "type": "minecraft:model", "model": "paintbrush:item/2/pink_paintbrush" } }
+          ],
+          "fallback": { "type": "minecraft:model", "model": "paintbrush:item/2/white_paintbrush" }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:base_color",
+      "cases": [
+        { "when": "white", "model": { "type": "minecraft:model", "model": "paintbrush:item/white_paintbrush" } },
+        { "when": "light_gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/light_gray_paintbrush" } },
+        { "when": "gray", "model": { "type": "minecraft:model", "model": "paintbrush:item/gray_paintbrush" } },
+        { "when": "black", "model": { "type": "minecraft:model", "model": "paintbrush:item/black_paintbrush" } },
+        { "when": "brown", "model": { "type": "minecraft:model", "model": "paintbrush:item/brown_paintbrush" } },
+        { "when": "red", "model": { "type": "minecraft:model", "model": "paintbrush:item/red_paintbrush" } },
+        { "when": "orange", "model": { "type": "minecraft:model", "model": "paintbrush:item/orange_paintbrush" } },
+        { "when": "yellow", "model": { "type": "minecraft:model", "model": "paintbrush:item/yellow_paintbrush" } },
+        { "when": "lime", "model": { "type": "minecraft:model", "model": "paintbrush:item/lime_paintbrush" } },
+        { "when": "green", "model": { "type": "minecraft:model", "model": "paintbrush:item/green_paintbrush" } },
+        { "when": "cyan", "model": { "type": "minecraft:model", "model": "paintbrush:item/cyan_paintbrush" } },
+        { "when": "light_blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/light_blue_paintbrush" } },
+        { "when": "blue", "model": { "type": "minecraft:model", "model": "paintbrush:item/blue_paintbrush" } },
+        { "when": "purple", "model": { "type": "minecraft:model", "model": "paintbrush:item/purple_paintbrush" } },
+        { "when": "magenta", "model": { "type": "minecraft:model", "model": "paintbrush:item/magenta_paintbrush" } },
+        { "when": "pink", "model": { "type": "minecraft:model", "model": "paintbrush:item/pink_paintbrush" } }
+      ],
+      "fallback": { "type": "minecraft:model", "model": "paintbrush:item/white_paintbrush" }
+    }
+  }
+}
