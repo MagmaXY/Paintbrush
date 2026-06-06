@@ -1,5 +1,5 @@
 # Кисточка (Paintbrush)
-<img width="160" height="160" alt="icon" src="https://github.com/user-attachments/assets/111fb63a-09d9-41c8-b092-963ec064a391" />
+<img width="160" height="160" alt="icon" src="https://github.com/user-attachments/assets/59ba9561-aaac-418d-be02-e954f39812f3" />
 
 > Данный мод упростит жизнь строителям, придав новую жизнь кисти, добавив ей красящие способности!
 
