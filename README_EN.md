@@ -31,4 +31,4 @@ Special thanks to @MorpheusKV19 for the wonderful mod idea!
 
 **License**
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it into your own projects.
+This template is available under the MIT license. Feel free to learn from it and incorporate it into your own projects.
